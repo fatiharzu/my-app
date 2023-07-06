@@ -1,13 +1,16 @@
 import React from 'react'
 
 const Jsx1 = () => {
+
+    const message = "class isimleri className= ' ' ile verilir";
+
   return (
-    <div>
-        <div>Jsx1  Tüm elementler tek bir root icinde olmalidir.</div>
-        <div>Elementlerin attribute leri camelCase olmalidir</div>
-        <div>class isimleri className= ' ' ile verilir</div>
-        <div className='title'>Merhaba Jsx</div>
-    </div>
+    <ul>
+        <li>Jsx1  Tüm elementler tek bir root icinde olmalidir.</li>
+        <li>Elementlerin attribute leri camelCase olmalidir</li>
+        <li>{message}</li>
+        <li className='title'>Merhaba Jsx</li>
+    </ul>
   )
 }
 
